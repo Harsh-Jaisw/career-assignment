@@ -1,6 +1,6 @@
 .taskList {
   display: flex;
-  border: 2px solid grey;
+  /* border: 2px solid grey; */
   width: 98vw;
   height: 88vh;
 }
@@ -17,7 +17,7 @@
   gap: 1rem;
 }
 .inputForm label {
-  font-weight: 500;
+  font-weight: bolder;
 }
 .inputForm button {
   margin-top: 1rem;
@@ -56,7 +56,6 @@
   border-bottom: 1px solid black;
 }
 .filterButton {
-  border: 1px solid peru;
   flex: 1;
 }
 .mainbtn {
@@ -80,21 +79,21 @@
 }
 .heading {
   font-size: 1.5rem;
-  color: rgb(9, 78, 132);
+  color: lightgray;
   display: flex;
   justify-content: center;
-  box-shadow: 0px 0px 3px 7px lightblue;
+  box-shadow: 0px 0px 5px 3px white;
   /* width: 19rem; */
   margin: auto;
   margin-top: 2rem;
 }
 .heading1 {
   font-size: 1.5rem;
-  color: rgb(9, 78, 132);
+  color: lightgray;
   display: flex;
   justify-content: center;
-  box-shadow: 0px 0px 3px 7px lightblue;
-  width: 16.7rem;
+  box-shadow: 0px 0px 5px 3px white;
+  width: 18rem;
   margin: auto;
   margin-top: 2rem;
 }
@@ -109,4 +108,14 @@
 }
 .filterdTask::-webkit-scrollbar {
   width: 0;
+}
+@media screen and (max-width:720px) {
+    .taskList{
+        display: flex;
+        flex-direction: column;
+    }
+    .filterdTask{
+        height:25vh;
+    }
+    
 }
