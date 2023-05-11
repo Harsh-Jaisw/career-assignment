@@ -7,6 +7,7 @@
   border-radius:8px;
   background-color:rgb(247, 247, 244) ;
   border: 1px solid grey;
+  opacity: .8;
   padding: 1rem;
   box-sizing: border-box;
 }
