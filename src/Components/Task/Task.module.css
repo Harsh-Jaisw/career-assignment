@@ -1,0 +1,37 @@
+.taskItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:30rem;
+  gap:1.5rem;
+  border-radius:8px;
+  background-color:rgb(247, 247, 244) ;
+  border: 1px solid grey;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.title{
+    font-size: 18px;
+    font-weight: 500;
+}
+.tasks {
+  display: flex;
+  flex-direction: column;
+  text-align:justify;
+  line-height: 35px;
+  /* border:2px solid blue; */
+}
+.tasks:nth-child(0) {
+  font-size: 19px;
+  font-weight: 500;
+}
+.btn {
+  border: none;
+  display: flex;
+  justify-content: right;
+  color: red;
+  font-size: 35px;
+  font-weight: 600;
+  cursor: pointer;
+  background: none;
+}
